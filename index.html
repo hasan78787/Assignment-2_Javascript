@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://spearpranta.github.io/java-script-2/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>java script 2</title>
+
+    
+    <link href="./java script 2_files/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./java script 2_files/style.css">
+
+    
+  </head>
+  <body>
+    
+    
+  
+    <section class="formvalidation">
+      
+              <div class="container">
+            
+                
+              
+                  <div class="col-md-7 signup">
+
+                    <h3>signup here</h3>
+                   
+                    <form name="SignUp">
+                      <div class="row">
+                          <div class="form-group col-md-6">
+                          
+                              <input type="text" class="form-control" id="Fname" name="Fnm" placeholder="First Name" style="border: 1.5px solid rgb(238, 70, 70);">
+                          </div>
+                        
+                          <div class="form-group col-md-6">
+                           
+                                  <input type="text" class="form-control" id="Lname" name="Lnm" placeholder="Last Name" style="border: 1.5px solid rgb(238, 70, 70);">
+                         </div>
+                       </div>
+                      
+                      <div class="form-group">
+                         <input type="email" class="form-control" id="Email1" name="Eml" placeholder="Email" style="border: 1.5px solid rgb(238, 70, 70);">
+                      </div>
+                      <div class="form-group">
+                        <input type="password" class="form-control" id="Password" name="Psw" placeholder="Enter Password" style="border: 1.5px solid rgb(238, 70, 70);">
+                      </div>
+                       <div class="form-group">
+                        <input type="password" class="form-control" id="re-Password" name="RPsw" placeholder="Re-enter Password" style="border: 1.5px solid rgb(238, 70, 70);">
+                      </div>
+
+                      <div class="form-group">
+                        <textarea id="Txtar" rows="8" name="TxT" placeholder="Your Vision" style="border: 1.5px solid rgb(238, 70, 70);"></textarea>
+                      </div>
+                      <div class="bton">
+                        <button type="button" class="btn btn-default btn-custom" onclick="ClickSignUp()">Sign Up</button>
+                      </div>
+                      
+                    </form>
+                    <h4 id="Error">Please fill the form correctly !</h4>
+                  </div>
+
+               </div>
+
+
+    </section>  
+
+      <section class="multiplication">
+        <div class="container">
+          
+          <div class="col-md-7 multy">
+             
+             <div class="row">
+                   <div class="col-md-7">
+                    <input type="text" id="Num" placeholder="Input Number">
+                  </div>
+
+                 <div class="col-md-5 bton">
+                            <button type="button" class="btn btn-default btn-custom pull-right" onclick="ClickMulty()">Click for Result</button>
+                  </div>
+             </div>
+
+              <div class="resl">
+                <h5 id="mulRe">DFDF * 10 = NaN<br></h5>
+              </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="calculator">
+        <div class="container">
+            
+            <div class="col-md-7 multy">
+               
+               <div class="row">
+                     <input type="text" name="" id="disp">
+                     <button type="button" onclick="ClickSeven()">7</button>
+                     <button type="button" onclick="ClickEight()">8</button>
+                     <button type="button" onclick="ClickNine()">9</button>
+                     <button type="button" onclick="ClickDivd()">/</button>
+
+                     <button type="button" onclick="ClickFour()">4</button>
+                     <button type="button" onclick="ClickFive()">5</button>
+                     <button type="button" onclick="ClickSix()">6</button>
+                     <button type="button" onclick="ClickMultp()">*</button>
+
+                     <button type="button" onclick="ClickOne()">1</button>
+                     <button type="button" onclick="ClickTwo()">2</button>
+                     <button type="button" onclick="ClickThree()">3</button>
+                     <button type="button" onclick="ClickMins()">-</button>
+
+                     <button type="button" onclick="ClickClear()">C</button>
+                     <button type="button" onclick="ClickZero()">0</button>
+                     <button type="button" onclick="ClickEqu()">=</button>
+                     <button type="button" onclick="ClickPlus()">+</button>
+                </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="palindrome">
+        <div class="container">
+          
+          <div class="col-md-7 multy">
+             
+             <div class="row">
+                   <div class="col-md-7">
+                    <input type="text" id="Paldr" placeholder="Input Text for palindrome test">
+                  </div>
+
+                 <div class="col-md-5 bton">
+                            <button type="button" class="btn btn-default btn-custom pull-right" onclick="ClickPaldr()">Click for Result</button>
+                  </div>
+             </div>
+
+              <div class="PDresl">
+                <h5 id="PDmulRe">palindrome</h5>
+              </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+    <script src="./java script 2_files/jquery.min.js.download"></script>
+    <script src="./java script 2_files/bootstrap.min.js.download"></script>
+    <script src="./java script 2_files/custom.js.download"></script>
+  
+
+</body></html>
